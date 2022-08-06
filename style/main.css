@@ -1,0 +1,247 @@
+/* CodeRax */
+/* YouTube : https://www.youtube.com/channel/UCPNW8Pu3MiOx2hJyLt2d8_A */
+/* Telegram : https://t.me/code_rax  */
+/* GitHub : https://github.com/code-rax */
+
+/* part1 */
+
+main .part1 .gradient {
+  background: linear-gradient(135deg, #a454fd, #2b05df);
+}
+main .part1 .gradient .description {
+  width: 50%;
+}
+main .part1 .gradient .description h1 {
+  font-size: 5.5vh;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+main .part1 .gradient .description p {
+  font-size: 2.5vh;
+}
+main .part1 .gradient .description button {
+  border: 1px solid var(--white);
+  border-radius: 40px;
+  width: 150px;
+  height: 50px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+main .part1 .gradient .description button:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+main .part1 .conBtnSlider {
+  height: 60px;
+  /* display: none; */
+  position: absolute;
+  bottom: -5px;
+  z-index: 4;
+  left: 45%;
+  bottom: -30px;
+}
+main .part1 .conBtnSlider .next,
+main .part1 .conBtnSlider .prev {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+main .part1 .org {
+  display: none;
+}
+
+/* part2 */
+
+main .part2 .leftSide h4 {
+  font-size: 20px;
+  color: #bdbbbb;
+}
+
+main .part2 .leftSide .conTitles div {
+  width: 60%;
+  height: 3px;
+  background-color: #8a2be2;
+}
+main .part2 .leftSide h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+main .part2 .leftSide button {
+  border-radius: 40px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: large;
+}
+main .part2 .leftSide button:hover {
+  border: 1px solid var(--black);
+  background-color: transparent;
+  color: var(--black);
+}
+
+/* part3 */
+
+main .part3 {
+  text-align: right;
+  background-image: url(../img/service-bg.jpg);
+}
+main .part3 .services {
+  height: 50px;
+}
+main .part3 .services .line {
+  width: 40%;
+  height: 4px;
+}
+main .part3 .imageBox {
+  position: relative;
+  bottom: -90px;
+}
+main .part3 .imageBox div {
+  width: 130px;
+  height: 120px;
+}
+main .part3 button {
+  border-radius: 40px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  position: relative;
+  top: 60px;
+  display: block;
+}
+
+/* part4 */
+
+main .part4 .heading h2 {
+  font-size: 5vh;
+}
+main .part4 .heading .line {
+  width: 40%;
+  height: 5px;
+  background-color: #a454fd;
+}
+main .part4 .heading p {
+  font-size: 18px;
+}
+
+main .part4 .photoGallery img {
+  width: 350px;
+  height: 250px;
+  transition: 0.3s;
+}
+main .part4 .photoGallery img:hover {
+  padding: 10px;
+}
+
+/* part5 */
+
+main .part5 .heading h2 {
+  font-size: 5vh;
+}
+
+main .part5 .heading .line {
+  width: 40%;
+  height: 5px;
+  background-color: #a454fd;
+}
+main .part5 p {
+  font-size: 1.2em;
+}
+main .part5 .comments .comment {
+  overflow-wrap: break-word;
+}
+
+main .part5 .comments .comment .reactons img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+main .part5 .comments .comment button {
+  color: #241ee2;
+  font-size: 1.53em;
+  cursor: pointer;
+  align-self: flex-start;
+}
+main .part5 .comments .comment button:hover {
+  color: var(--black);
+}
+
+/* part6 */
+
+main .part6 {
+  background-color: #021056;
+  height: 380px;
+}
+main .part6 .title {
+  text-align: left;
+  line-height: 2em;
+}
+main .part6 .title h1 {
+  font-size: 6vh;
+  font-weight: 400;
+}
+main .part6 .title b {
+  font-size: 1.5em;
+  font-weight: 1000;
+}
+main .part6 form {
+  flex-grow: 5;
+  flex-direction: row;
+}
+main .part6 form .connector {
+  width: 90%;
+  height: 85px;
+  border-radius: 50px;
+}
+main .part6 form .connector input {
+  font-size: 22px;
+}
+main .part6 form .connector button {
+  background-color: #241ee2;
+  border-radius: 50px;
+  font-size: 2.5vh;
+  cursor: pointer;
+  width: 40%;
+}
+
+/* part7 */
+
+main .part7 .heading {
+  font-size: 1.5em;
+}
+main .part7 .heading .line {
+  width: 40%;
+  height: 5px;
+  background-color: #a454fd;
+}
+main .part7 form {
+  width: 50%;
+}
+main .part7 form input {
+  border-bottom: 1px solid var(--black);
+}
+main .part7 .formBox .photoBox {
+  width: 50%;
+}
+main .part7 img {
+  height: auto;
+  border-radius: 50%;
+}
+main .part7 button {
+  border: 1px solid var(--white);
+  border-radius: 40px;
+  width: 150px;
+  height: 50px;
+  background-color: #021056;
+  cursor: pointer;
+}
+
+/* part8 */
+
+main .part8 div {
+  flex-basis: 250px;
+  height: 100px;
+}

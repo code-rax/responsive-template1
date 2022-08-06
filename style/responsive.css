@@ -1,0 +1,287 @@
+/* CodeRax */
+/* YouTube : https://www.youtube.com/channel/UCPNW8Pu3MiOx2hJyLt2d8_A */
+/* Telegram : https://t.me/code_rax  */
+/* GitHub : https://github.com/code-rax */
+
+@media screen and (min-width: 1400px) {
+  /* header */
+  header .part1 {
+    flex-basis: 10%;
+  }
+  header .part2 {
+    flex-basis: 48%;
+  }
+  header .part3 {
+    display: flex;
+    flex-basis: 30%;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--white);
+  }
+  /* main */
+
+  /* part1 */
+  main .part1 {
+    position: relative;
+  }
+  main .part1 img {
+    vertical-align: middle;
+  }
+  main .part1 .gradient {
+    position: absolute;
+    z-index: 3;
+    clip-path: polygon(0 0, 65% 0, 46% 100%, 0 100%);
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+  }
+  /* part2 */
+
+  main .part2 .righSide {
+    width: 50%;
+  }
+  main .part2 .leftSide {
+    width: 50%;
+  }
+  /* part5 */
+
+  main .part5 .comments .comment {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1399px) {
+  /* header */
+  header .part3 {
+    display: none;
+  }
+  /* main */
+
+  /* part1 */
+
+  main .part1 {
+    position: relative;
+  }
+  main .part1 img {
+    vertical-align: middle;
+  }
+  main .part1 .gradient {
+    position: absolute;
+    z-index: 3;
+    clip-path: polygon(0 0, 65% 0, 46% 100%, 0 100%);
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+  }
+
+  /* part2 */
+
+  main .part2 .righSide {
+    width: 50%;
+  }
+  main .part2 .leftSide {
+    width: 50%;
+  }
+
+  /* part5 */
+
+  main .part5 .comments .comment {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* header */
+  header .part2 {
+    display: none;
+  }
+
+  header .part4 {
+    display: flex;
+  }
+
+  /* main */
+
+  /* part1 */
+
+  main .part1 .conBtnSlider {
+    display: none;
+  }
+  main .part1 .gradient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .part1 .gradient .discription {
+    width: 80%;
+    align-items: center;
+    text-align: center;
+  }
+  main .part1 .clip {
+    display: none;
+  }
+  main .part1 .org {
+    display: block;
+  }
+
+  /* part2 */
+
+  main .part2 {
+    flex-direction: column;
+  }
+  main .part2 .rightSide {
+    order: 1;
+  }
+  main .part2 .leftSide {
+    order: 2;
+  }
+  main .part2 .leftSide button {
+    text-align: center;
+  }
+  /* part5 */
+
+  main .part5 .comments .comment {
+    width: 40%;
+    margin-bottom: 70px;
+  }
+  /* part6 */
+  main .part6 {
+    flex-direction: column;
+  }
+  main .part6 .title {
+    height: auto;
+  }
+  main .part6 form {
+    width: 100%;
+    height: 100px;
+  }
+  main .part6 form .connector {
+    width: 80%;
+    height: 70px;
+    flex-direction: column;
+  }
+  main .part6 form .connector button {
+    margin-top: 65px;
+    width: 60%;
+    background-color: #d2691e;
+  }
+
+  /* part7 */
+
+  main .part7 .formBox {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .part7 .formBox form {
+    order: 2;
+  }
+  main .part7 .formBox form input {
+    margin-bottom: 50px;
+  }
+  main .part7 .formBox .photoBox {
+    margin: 0 0 40px 0;
+    order: 1;
+  }
+}
+@media screen and (max-width: 768px) {
+  .line {
+    display: none;
+  }
+  /* header */
+  header .part2 {
+    display: none;
+  }
+  header .part4 {
+    display: flex;
+  }
+  /* main */
+
+  /* part1 */
+  main .part1 .conBtnSlider {
+    display: none;
+  }
+  main .part1 .gradient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .part1 .gradient .discription {
+    width: 80%;
+    align-items: center;
+    text-align: center;
+  }
+  main .part1 .clip {
+    display: none;
+  }
+  main .part1 .org {
+    display: block;
+  }
+  /* part2 */
+
+  main .part2 {
+    flex-direction: column;
+  }
+  main .part2 .rightSide {
+    order: 1;
+  }
+  main .part2 .leftSide {
+    order: 2;
+  }
+  main .part2 .leftSide button {
+    text-align: center;
+  }
+  /* part4 */
+
+  main .part4 .photoGallery img {
+    width: 80%;
+    height: 50%;
+  }
+  /* part5 */
+
+  main .part5 .comments .comment {
+    margin-bottom: 70px;
+  }
+  /* part6 */
+  main .part6 {
+    flex-direction: column;
+  }
+  main .part6 .title {
+    height: auto;
+  }
+  main .part6 form {
+    width: 100%;
+    height: 100px;
+  }
+  main .part6 form .connector {
+    width: 80%;
+    height: 70px;
+    flex-direction: column;
+  }
+  main .part6 form .connector button {
+    margin-top: 65px;
+    width: 60%;
+    background-color: #d2691e;
+  }
+
+  /* part7 */
+
+  main .part7 .formBox {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .part7 .formBox form {
+    order: 2;
+  }
+  main .part7 .formBox form input {
+    margin-bottom: 50px;
+  }
+  main .part7 .formBox .photoBox {
+    margin: 0 0 40px 0;
+    order: 1;
+  }
+  /* part8 */
+  main .part8 {
+    justify-content: center;
+  }
+  main .part8 div {
+    flex-direction: column;
+  }
+}

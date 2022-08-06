@@ -1,0 +1,87 @@
+/* CodeRax */
+/* YouTube : https://www.youtube.com/channel/UCPNW8Pu3MiOx2hJyLt2d8_A */
+/* Telegram : https://t.me/code_rax  */
+/* GitHub : https://github.com/code-rax */
+
+header {
+  height: 75px;
+  background-color: #1e025b;
+}
+header .part1 {
+  flex-basis: 15%;
+  font-size: 2.7vh;
+}
+header .part1 img {
+  width: 40px;
+  height: 27px;
+}
+header .part2 {
+  flex-basis: 45%;
+}
+header .part2 ul {
+  font-size: 1em;
+  list-style-type: none;
+  color: #dbdada;
+}
+header .part2 ul li {
+  cursor: pointer;
+}
+header .part2 ul li:hover {
+  color: var(--white);
+}
+header .part3 {
+  display: none;
+}
+header .part3 img {
+  width: 20px;
+  height: 20px;
+}
+
+header .part4 {
+  width: 30px;
+  height: 30px;
+  display: none;
+  cursor: pointer;
+}
+header .part4 div {
+  height: 5px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+header .part4 div:nth-child(1).active {
+  transform: translate(0, 10px) rotate(45deg);
+  background-color: red;
+}
+
+header .part4 div:nth-child(2).active {
+  transform: translate(-20px);
+  background-color: transparent;
+}
+header .part4 div:nth-child(3).active {
+  transform: translate(0, -10px) rotate(-45deg);
+  background-color: red;
+}
+
+/* menu for small sizes */
+
+.menus {
+  display: none;
+  background-color: transparent;
+  text-align: center;
+  line-height: 50px;
+  padding: 1em;
+  transition: 0.3s;
+  font-size: 4vh;
+}
+.menus ul {
+  list-style-type: none;
+}
+.menus ul li {
+  cursor: pointer;
+}
+
+.menus.active {
+  background-color: #1e025b;
+  display: block;
+}
